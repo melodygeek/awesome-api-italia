@@ -1,0 +1,59 @@
+publiccodeYmlVersion: "0.4"
+name: Awesome API Italia
+url: https://github.com/melodygeek/awesome-api-italia
+landingURL: https://github.com/melodygeek/awesome-api-italia
+releaseDate: "2026-05-22"
+softwareVersion: "2026.07"
+developmentStatus: stable
+softwareType: standalone/other
+categories:
+  - data-sharing-and-exchange
+  - open-data-management
+usedBy:
+  - Developers
+  - Integrators
+  - Public Administration
+
+description:
+  it:
+    genericName: Awesome API Italia
+    shortDescription: Una lista curata di API italiane e internazionali con dati italiani.
+    longDescription: >
+      Una awesome list curata di API italiane e internazionali con dati italiani — dati pubblici, PA, catasto, fisco, automotive, imprese, identità digitale, meteo e molto altro. Le voci includono enti pubblici italiani, provider privati, aggregatori e dataset internazionali con copertura specifica sull'Italia. Il progetto segue il formato awesome-list, con categorizzazione tematica e legenda per API a pagamento, pubbliche e con registrazione.
+    features:
+      - 200+ API catalogate e verificate
+      - Categorizzazione per settore (PA, fisco, automotive, immobiliare, etc.)
+      - Tracciamento API deprecate
+      - Formato awesome-list compatibile
+  en:
+    genericName: Awesome API Italia
+    shortDescription: A curated list of Italian APIs and international APIs with Italian data.
+    longDescription: >
+      A curated awesome list of Italian APIs and international APIs with Italian data — public data, PA, land registry, tax, automotive, companies, digital identity, weather, and more. Entries include Italian public entities, private providers, aggregators, and international datasets with specific coverage of Italy. The project follows the awesome-list format with thematic categorization and a legend for paid, public, and registration-required APIs.
+    features:
+      - 200+ catalogued and verified APIs
+      - Sector categorization (PA, fiscal, automotive, real estate, etc.)
+      - Deprecated API tracking
+      - awesome-list format compatible
+
+legal:
+  license: CC0-1.0
+
+maintenance:
+  type: community
+  contacts:
+    - name: Melodygeek
+      email: melody4geek@gmail.com
+
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - it
+
+platforms:
+  - web
+
+dependsOn:
+  open:
+    - name: GitHub
+      versionMin: "1.0"

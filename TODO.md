@@ -32,9 +32,9 @@ Questo repository non è un prodotto binario, un pacchetto, un plugin o un SDK. 
 
 | Priority | Channel cluster | Agent-operable | Status | Notes |
 |---|---|---|---|---|
-| 1 | GitHub-native discoverability | yes | in progress | README, topics, description, badges |
-| 2 | PR-based awesome-list aggregators | partial | todo | Sottomissione via PR a liste affini |
-| 3 | Directory italiane e tematiche | partial | todo | italia-opensource, Developers Italia, liste PA |
+| 1 | GitHub-native discoverability | yes | listed | README, topics, description, badges |
+| 2 | PR-based awesome-list aggregators | partial | in progress | Sottomissione via PR a liste affini |
+| 3 | Directory italiane e tematiche | partial | in progress | italia-opensource, Developers Italia, liste PA |
 | 4 | Forum e discussioni | no | monitoring | Solo citazioni contestuali, no spam |
 
 ## Canali di distribuzione
@@ -44,24 +44,36 @@ Questo repository non è un prodotto binario, un pacchetto, un plugin o un SDK. 
 | Channel | URL | Status | Notes |
 |---|---|---|---|
 | Repository description | GitHub repo settings | done | Descrizione già impostata |
-| Repository topics | GitHub repo settings | todo | Aggiungere: `api`, `italy`, `open-data`, `pa`, `awesome-list`, `awesome` |
+| Repository topics | GitHub repo settings | listed | 15 topics: agid, api, awesome, awesome-list, developers-italia, fintech, italia, italy, open-data, open-source, pa, pa-digitale, public-apis, rest-api, spid |
 | README badges | README.md | done | Awesome badge, lingua, license, PRs welcome |
 | CONTRIBUTING guide | CONTRIBUTING.md | done | Criteri di inclusione e formato voci |
+| Track Awesome List | https://www.trackawesomelist.com | auto | Auto-indexato via topic `awesome-list` |
+| awesomelists.top | https://awesomelists.top | auto | Auto-indexato via topic `awesome-list` |
 
 ### P2 — Aggregatori awesome-list
 
-| Target | URL | Fit | Status |
-|---|---|---|---|
-| awesome-italia-opensource | https://github.com/italia-opensource/awesome-italia-opensource | high | todo |
-| publicapis | https://github.com/public-apis/public-apis | medium | todo |
-| awesome-italian | liste italiane generiche | medium | todo |
+| Target | URL | Fit | Status | PR |
+|---|---|---|---|---|
+| italia-opensource | https://github.com/italia-opensource/awesome-italia-opensource | high | submitted | #201 |
+| awesome-italian-pa-opensource | https://github.com/stefanosalvucci/awesome-italian-pa-opensource | high | submitted | #1 |
+| sindresorhus/awesome | https://github.com/sindresorhus/awesome | high | todo | Richiede awesome-lint + 4 PR review |
+| IonicaBizau/made-in-italy | https://github.com/IonicaBizau/made-in-italy | medium | todo | Progetti italiani per linguaggio |
+| amallia/awesome-italian-tech | https://github.com/amallia/awesome-italian-tech | medium | todo | Risorse tech italiane generali |
+| publicapis/public-apis | https://github.com/public-apis/public-apis | low | n/a | Solo API individuali, no meta-liste |
 
 ### P3 — Directory italiane
 
+| Target | URL | Fit | Status | Notes |
+|---|---|---|---|---|
+| Developers Italia | https://developers.italia.it/it/api | high | submitted | Aggiunto publiccode.yml per indexing automatico |
+| italia/awesome-italian-public-datasets | https://github.com/italia/awesome-italian-public-datasets | low | n/a | Solo dataset, non API list |
+
+### P4 — Forum e community
+
 | Target | URL | Fit | Status |
 |---|---|---|---|
-| Developers Italia | https://developers.italia.it/it/api | high | todo |
-| awesome-italia-remote | https://github.com/italiaremote/awesome-italia-remote | low | n/a |
+| r/ItalyInformatica | https://www.reddit.com/r/ItalyInformatica/ | medium | monitoring |
+| r/opensource | https://www.reddit.com/r/opensource/ | medium | monitoring |
 
 ## Execution log
 
@@ -71,10 +83,17 @@ Questo repository non è un prodotto binario, un pacchetto, un plugin o un SDK. 
 | 2026-07-07 | Verificata e aggiornata la lista con API Openapi dal knowledge base |
 | 2026-07-07 | Corretti tutti i link Openapi al formato console.openapi.com |
 | 2026-07-07 | Rimosse API non verificate (CRIF, Experian, Cerved, etc.) in DEPRECATED.md |
+| 2026-07-07 | Aggiunti 15 topic al repo (api, awesome, awesome-list, italy, open-data, pa, etc.) |
+| 2026-07-07 | PR #201 aperta su italia-opensource/awesome-italia-opensource — submitted |
+| 2026-07-07 | PR #1 aperta su stefanosalvucci/awesome-italian-pa-opensource — submitted |
+| 2026-07-07 | Aggiunto publiccode.yml per indexing automatico su developers.italia.it |
+| 2026-07-07 | Studio canali distribuzione: 22 canali identificati, 5 attivati |
 
 ## Note
 
 - Preferire pochi canali rilevanti rispetto a distribuzione massiva
 - Ogni PR deve seguire le regole di contribuzione del target
+- Per fork e cloni usare sempre l'identità melodygeek
 - Mantenere aggiornato DEPRECATED.md come traccia storica
 - Le voci vanno sempre verificate prima di essere (ri)aggiunte
+- Prossimi passi: sindresorhus/awesome (richiede awesome-lint), IonicaBizau/made-in-italy
