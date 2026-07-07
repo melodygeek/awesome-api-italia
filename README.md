@@ -41,10 +41,12 @@
 - [Finanza e Mercati](#finanza-e-mercati)
     - [Banche e Istituti Finanziari](#banche-e-istituti-finanziari)
     - [Fatturazione Elettronica e SDI](#fatturazione-elettronica-e-sdi)
+    - [Pagamenti](#pagamenti)
 - [Comunicazione e Marketing Diretto](#comunicazione-e-marketing-diretto)
     - [SMS e Notifiche](#sms-e-notifiche)
     - [PEC e Posta Certificata](#pec-e-posta-certificata)
     - [Email Verification](#email-verification)
+    - [Posta Fisica](#posta-fisica)
 - [Identità Digitale e Trust](#identità-digitale-e-trust)
     - [SPID e CIE](#spid-e-cie)
     - [Firma Digitale](#firma-digitale)
@@ -161,6 +163,7 @@
 - 🔑 [HERE Maps — Italy](https://developer.here.com/) 💰 — Alternativa enterprise a Google Maps con dati italiani di alta qualità. Freemium.
 - 🔑 [TomTom API — Italy](https://developer.tomtom.com/) 💰 — Routing e traffico con dataset italiani. Forte in automotive.
 - [Nominatim (OSM)](https://nominatim.org/release-docs/develop/api/Overview/) — Geocoding/reverse geocoding gratuito basato su OpenStreetMap. Ottima copertura italiana.
+- 🔑 [Openapi.com — Geocoding](https://www.openapi.com/it/api/geocoding) 💰 — Forward e reverse geocoding per indirizzi e comuni italiani. Coordinate, indirizzi normalizzati, lookup CAP.
 
 <p align="center">♢</p>
 
@@ -183,11 +186,20 @@
 - 🏛️ [Consob — Emittenti e Strumenti](https://www.consob.it/web/consob/home) — Dati su società quotate italiane, prospetti, strumenti finanziari.
 - 🏛️ [BCE / ECB — Statistical Data Warehouse](https://sdw.ecb.europa.eu/browseExplanation.do?node=9484447) — API SDMX con tassi BCE, cambi Euro, dati bancari italiani aggregati.
 - [IBAN Validation — Italy](https://ibanapi.com/) 💰 — Validazione e lookup IBAN italiani (prefisso IT). Verifica BIC/SWIFT, nome banca.
+- 🔑 [Openapi.com — Exchange Rate](https://www.openapi.com/it/api/finance) 💰 — Tassi di cambio in tempo reale e storico cambi. API REST con aggiornamento automatico.
 
 ### Fatturazione Elettronica e SDI
 
 - 🏛️ [FatturaPA — Specifiche Tecniche SDI](https://www.fatturapa.gov.it/it/sistemainterscambio/specifiche-tecniche/) — Documentazione ufficiale per integrazione con il Sistema di Interscambio dell'Agenzia delle Entrate.
 - 💰 🔑 [Fatture in Cloud API](https://developers.fattureincloud.it/) — API REST per gestione fatturazione elettronica italiana. Ampiamente usata da sviluppatori e integrator.
+- 💰 🔑 [Openapi.com — Invoice](https://www.openapi.com/it/api/invoicing) — Gestione completa fatture elettroniche e scontrini elettronici. Invio a SDI, conservazione sostitutiva, integrazione Agenzia delle Entrate.
+- 💰 🔑 [Openapi.com — SDI](https://www.openapi.com/it/api/invoicing) — Interazione diretta con il Sistema di Interscambio. Invio e ricezione fatture elettroniche B2B e PA.
+
+<p align="center">♢</p>
+
+### Pagamenti
+
+- 💰 🔑 [Openapi.com — Bill Payments](https://www.openapi.com/it/api/finance) — Pagamento bollettini postali, MAV, RAV, PagoPA, bollo auto. Integrazione via API con circuito Poste Italiane.
 
 <p align="center">♢</p>
 
@@ -203,6 +215,8 @@
 ### PEC e Posta Certificata
 
 - 🔑 [Openapi.com — PEC Check](https://www.openapi.com/it/api/id-trust) — Verifica validità e disponibilità indirizzi PEC italiani.
+- 💰 🔑 [Openapi.com — PEC](https://www.openapi.com/it/api/communication) — Attivazione, modifica e gestione caselle PEC. Invio e ricezione posta certificata via API.
+- 💰 🔑 [Openapi.com — PEC Massiva](https://www.openapi.com/it/api/communication) — Invio massivo di PEC con verifica stato ricevute di consegna e accettazione.
 - 💰 🔑 [Aruba PEC API](https://www.aruba.it/servizi/posta-elettronica-certificata.aspx) — Invio e ricezione PEC via API. Aruba è il maggior provider PEC italiano.
 - 💰 🔑 [Legalmail (InfoCert) API](https://www.legalmail.it/) — API PEC del secondo provider italiano per volumi. Usato principalmente in ambito legale e PA.
 - 🏛️ [IPA — Indice PA (iPA)](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente) — Registro ufficiale degli indirizzi PEC di tutte le PA italiane. API REST pubblica.
@@ -212,6 +226,10 @@
 - 💰 🔑 [Openapi.com — Email Check](https://www.openapi.com/it/api/id-trust) — Verifica email con controlli SPF, DMARC, MX, disposabilità. Ottimizzato per domini italiani.
 - 💰 🔑 [ZeroBounce](https://www.zerobounce.net/docs/) — Verifica email internazionale con buona copertura domini .it.
 - 💰 🔑 [Hunter.io](https://hunter.io/api) — Ricerca e verifica email aziendali. Buona copertura imprese italiane.
+
+### Posta Fisica
+
+- 💰 🔑 [Openapi.com — Postal Service](https://www.openapi.com/it/api/communication) — Invio raccomandate, telegrammi, posta prioritaria via Poste Italiane. API per automatizzare spedizioni fisiche con tracking.
 
 <p align="center">♢</p>
 
@@ -229,6 +247,8 @@
 
 - 💰 🔑 [Namirial API](https://www.namirial.com/soluzioni-digital-trust/) — API per firma digitale qualificata, sigillo elettronico, timestamp. Provider accreditato AgID.
 - 💰 🔑 [InfoCert Sign API](https://www.infocert.it/servizi-per-le-aziende/firma-digitale/) — Firma digitale remota e massiva. Tra i principali provider italiani accreditati eIDAS.
+- 💰 🔑 [Openapi.com — eSignature](https://www.openapi.com/it/api/digital-trust) — Firma digitale conforme eIDAS: OTP, firma qualificata remota, sigilli elettronici. Integrazione API REST.
+- 💰 🔑 [Openapi.com — Time Stamping](https://www.openapi.com/it/api/digital-trust) — Marche temporali qualificate su documenti digitali. Conforme normativa eIDAS.
 
 <p align="center">♢</p>
 
@@ -312,6 +332,8 @@
 - [spid-sp-test](https://github.com/italia/spid-sp-test) — Tool ufficiale per testare implementazioni SPID Service Provider.
 - [awesome-lint](https://github.com/sindresorhus/awesome-lint) — Linter per validare questa lista prima di fare PR a sindresorhus/awesome.
 - [Developers Italia](https://developers.italia.it/it/api) — Catalogo ufficiale delle API della PA italiana mantenuto da AgID/PDND.
+- 💰 🔑 [Openapi.com — AI RAG](https://www.openapi.com/it/api/ai) — Retrieval-Augmented Generation per documenti italiani. Crea RAG, indicizza documenti, query conversazionali con LLM.
+- 💰 🔑 [Openapi.com — PDF](https://www.openapi.com/it/api/pdf) — Generazione documenti PDF da HTML e URL. Rendering JavaScript lato server.
 
 <p align="center">♢</p>
 
