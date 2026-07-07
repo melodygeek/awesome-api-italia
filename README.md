@@ -119,20 +119,20 @@
 ### Registro Imprese e Visure
 
 - 🏛️ 💰 [InfoCamere — API Registro Imprese](https://www.infocamere.it/strumenti/api) — API ufficiali del sistema camerale italiano. Visure camerali, bilanci, atti, protesti, cariche. Il riferimento istituzionale per dati sulle imprese italiane.
-- 💰 🔑 [Openapi.com — Business Information IT](https://www.openapi.com/it/api/business-information) — Marketplace API con oltre 70 servizi su imprese italiane: visure, bilanci, rating, DURC, atti notarili, cariche, protesti. Aggregatore certificato ISO 27001.
+- 💰 🔑 [Openapi.com — Business Information IT](https://console.openapi.com/apis/company/info) — Marketplace API con oltre 70 servizi su imprese italiane: visure, bilanci, rating, DURC, atti notarili, cariche, protesti. Aggregatore certificato ISO 27001.
 - 💰 🔑 [Registro.it / CCIAA](https://www.registroimprese.it/) — Portale delle Camere di Commercio. Accesso a visure e atti ufficiali (tramite intermediari con API).
 - 💰 🔑 [Telemaco (InfoCamere)](https://www.telemaco.infocamere.it/) — Sportello telematico per professionisti. API per accesso diretto al Registro Imprese.
 
 ### Partite IVA e Codici Fiscali
 
-- 🔑 [Openapi.com — VAT / Codice Fiscale Check](https://www.openapi.com/it/api/id-trust) — Verifica P.IVA, codice fiscale, e corrispondenza tra i due. Include check di esistenza nel registro tributario.
+- 🔑 [Openapi.com — VAT / Codice Fiscale Check](https://console.openapi.com/apis/trust/info) — Verifica P.IVA, codice fiscale, e corrispondenza tra i due. Include check di esistenza nel registro tributario.
 - [vat-validation (npm)](https://www.npmjs.com/package/vat-validation) — Libreria open source per validazione P.IVA italiana e EU lato client.
 - [codicefiscale (npm)](https://www.npmjs.com/package/codicefiscale) — Generazione e validazione codice fiscale italiano secondo algoritmo MEF.
 - [python-codicefiscale](https://github.com/fabiocaccamo/python-codicefiscale) — Implementazione Python completa dell'algoritmo codice fiscale.
 
 ### Rating e Rischio Creditizio
 
-- 💰 🔑 [Openapi.com — Credit Score IT](https://www.openapi.com/it/api/business-information) — Score creditizio e limiti operativi per imprese italiane.
+- 💰 🔑 [Openapi.com — Credit Score IT](https://console.openapi.com/apis/risk/info) — Score creditizio e limiti operativi per imprese italiane.
 - 💰 🔑 [Modefinance](https://www.modefinance.com/it/api) — FinTech italiana specializzata in rating PMI. API per accesso a rating MORE e analisi di bilancio.
 
 <p align="center">♢</p>
@@ -143,13 +143,13 @@
 
 - 🏛️ 🔑 [Agenzia delle Entrate — Servizi Catastali](https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-banca-dati-catastale) — Accesso alla banca dati catastale. Visure catastali, planimetrie, rendite. Accesso istituzionale o tramite servizi convenzionati.
 - 🏛️ [OMI — Osservatorio Mercato Immobiliare](https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/omi) — Quotazioni immobiliari ufficiali per zona OMI. Dataset scaricabili, in sviluppo API REST.
-- 💰 🔑 [Openapi.com — Real Estate](https://www.openapi.com/it/api/real-estate) — 30+ servizi su immobili italiani: valutazioni, dati catastali, ipoteche, storico transazioni.
+- 💰 🔑 [Openapi.com — Real Estate](https://console.openapi.com/apis/realestate/info) — 30+ servizi su immobili italiani: valutazioni, dati catastali, ipoteche, storico transazioni.
 
 ### Comuni, CAP e Codici ISTAT
 
 - 🏛️ [ISTAT — Codici Comuni e Unità Territoriali](https://www.istat.it/it/archivio/6789) — Dataset ufficiale di tutti i comuni italiani con codici ISTAT, province, regioni. Scaricabile in CSV/XLS, base per qualsiasi API geografica IT.
 - 🏛️ [Poste Italiane — CAP](https://www.poste.it/cerca/index.html#/viacap) — Lookup CAP ufficiale. Non espone API pubblica, ma esistono dataset derivati open source.
-- 🔑 [Openapi.com — Municipalities](https://www.openapi.com/it/api/person) — API per lookup comuni per CAP, ISTAT, provincia, regione. Incluse fusioni e comuni soppressi.
+- 🔑 [Openapi.com — Municipalities](https://console.openapi.com/apis/cap/info) — API per lookup comuni per CAP, ISTAT, provincia, regione. Incluse fusioni e comuni soppressi.
 - [comuni-italiani (npm)](https://www.npmjs.com/package/comuni-italiani) — Dataset completo dei comuni italiani in JSON, aggiornato. Usabile lato client senza API.
 - [comuni.json (GitHub)](https://github.com/matteocontrini/comuni-json) — Lista aggiornata comuni italiani in JSON con ISTAT, CAP, coordinate, provincia, regione.
 - [cap-comuni-italiani (GitHub)](https://github.com/devdavid/cap-comuni-italiani) — Mapping CAP → comune aggiornato annualmente da fonti ufficiali.
@@ -163,14 +163,14 @@
 - 🔑 [HERE Maps — Italy](https://developer.here.com/) 💰 — Alternativa enterprise a Google Maps con dati italiani di alta qualità. Freemium.
 - 🔑 [TomTom API — Italy](https://developer.tomtom.com/) 💰 — Routing e traffico con dataset italiani. Forte in automotive.
 - [Nominatim (OSM)](https://nominatim.org/release-docs/develop/api/Overview/) — Geocoding/reverse geocoding gratuito basato su OpenStreetMap. Ottima copertura italiana.
-- 🔑 [Openapi.com — Geocoding](https://www.openapi.com/it/api/geocoding) 💰 — Forward e reverse geocoding per indirizzi e comuni italiani. Coordinate, indirizzi normalizzati, lookup CAP.
+- 🔑 [Openapi.com — Geocoding](https://console.openapi.com/apis/geocoding/info) 💰 — Forward e reverse geocoding per indirizzi e comuni italiani. Coordinate, indirizzi normalizzati, lookup CAP.
 
 <p align="center">♢</p>
 
 ## Automotive e Veicoli
 
 - 🏛️ 🔑 [MIT — Motorizzazione Civile](https://www.mit.gov.it/infrastrutture-e-trasporti/motorizzazione/open-data) — Open data su veicoli immatricolati, revisioni, patenti. Accesso istituzionale per interrogazioni puntuali.
-- 💰 🔑 [Openapi.com — Automotive](https://www.openapi.com/it/api/automotive) — 17+ API su veicoli italiani: targa → marca/modello/anno, assicurazione attiva, revisione, libretto. Fonte ACI/PRA.
+- 💰 🔑 [Openapi.com — Automotive](https://console.openapi.com/apis/automotive/info) — 17+ API su veicoli italiani: targa → marca/modello/anno, assicurazione attiva, revisione, libretto. Fonte ACI/PRA.
 - 💰 🔑 [ACI — PRA (Pubblico Registro Automobilistico)](https://www.aci.it/i-servizi/normative/codice-della-strada/revisione-dei-veicoli.html) — Registro proprietà veicoli. Accesso tramite intermediari convenzionati ACI.
 - 💰 🔑 [Targhe e Veicoli API](https://www.targheinfo.it/) — API commerciale italiana per lookup targa: dati tecnici veicolo, scadenza bollo, assicurazione.
 - [eurotax / DAT](https://www.dat.de/en/) 💰 — Valutazione veicoli usati italiani. Riferimento per automotive dealer e assicurazioni.
@@ -186,20 +186,20 @@
 - 🏛️ [Consob — Emittenti e Strumenti](https://www.consob.it/web/consob/home) — Dati su società quotate italiane, prospetti, strumenti finanziari.
 - 🏛️ [BCE / ECB — Statistical Data Warehouse](https://sdw.ecb.europa.eu/browseExplanation.do?node=9484447) — API SDMX con tassi BCE, cambi Euro, dati bancari italiani aggregati.
 - [IBAN Validation — Italy](https://ibanapi.com/) 💰 — Validazione e lookup IBAN italiani (prefisso IT). Verifica BIC/SWIFT, nome banca.
-- 🔑 [Openapi.com — Exchange Rate](https://www.openapi.com/it/api/finance) 💰 — Tassi di cambio in tempo reale e storico cambi. API REST con aggiornamento automatico.
+- 🔑 [Openapi.com — Exchange Rate](https://console.openapi.com/apis/exchange/info) 💰 — Tassi di cambio in tempo reale e storico cambi. API REST con aggiornamento automatico.
 
 ### Fatturazione Elettronica e SDI
 
 - 🏛️ [FatturaPA — Specifiche Tecniche SDI](https://www.fatturapa.gov.it/it/sistemainterscambio/specifiche-tecniche/) — Documentazione ufficiale per integrazione con il Sistema di Interscambio dell'Agenzia delle Entrate.
 - 💰 🔑 [Fatture in Cloud API](https://developers.fattureincloud.it/) — API REST per gestione fatturazione elettronica italiana. Ampiamente usata da sviluppatori e integrator.
-- 💰 🔑 [Openapi.com — Invoice](https://www.openapi.com/it/api/invoicing) — Gestione completa fatture elettroniche e scontrini elettronici. Invio a SDI, conservazione sostitutiva, integrazione Agenzia delle Entrate.
-- 💰 🔑 [Openapi.com — SDI](https://www.openapi.com/it/api/invoicing) — Interazione diretta con il Sistema di Interscambio. Invio e ricezione fatture elettroniche B2B e PA.
+- 💰 🔑 [Openapi.com — Invoice](https://console.openapi.com/apis/invoice/info) — Gestione completa fatture elettroniche e scontrini elettronici. Invio a SDI, conservazione sostitutiva, integrazione Agenzia delle Entrate.
+- 💰 🔑 [Openapi.com — SDI](https://console.openapi.com/apis/sdi/info) — Interazione diretta con il Sistema di Interscambio. Invio e ricezione fatture elettroniche B2B e PA.
 
 <p align="center">♢</p>
 
 ### Pagamenti
 
-- 💰 🔑 [Openapi.com — Bill Payments](https://www.openapi.com/it/api/finance) — Pagamento bollettini postali, MAV, RAV, PagoPA, bollo auto. Integrazione via API con circuito Poste Italiane.
+- 💰 🔑 [Openapi.com — Bill Payments](https://console.openapi.com/apis/bollettini/info) — Pagamento bollettini postali, MAV, RAV, PagoPA, bollo auto. Integrazione via API con circuito Poste Italiane.
 
 <p align="center">♢</p>
 
@@ -208,28 +208,28 @@
 ### SMS e Notifiche
 
 - 💰 🔑 [eSendex Italy](https://developers.esendex.com/) — API SMS con numeri italiani. Molto usata per OTP e notifiche transazionali.
-- 💰 🔑 [Openapi.com — SMS](https://www.openapi.com/it/api/communication) — Invio SMS con prefisso italiano. Parte del marketplace Openapi.
+- 💰 🔑 [Openapi.com — SMS](https://console.openapi.com/apis/smsv2/info) — Invio SMS con prefisso italiano. Parte del marketplace Openapi.
 - 💰 🔑 [Twilio — Italy](https://www.twilio.com/docs/sms) — Numeri italiani disponibili. Leader globale con ottima copertura TIM/Vodafone/WindTre.
 - 💰 🔑 [Messagebird](https://developers.messagebird.com/) — Alternativa europea a Twilio con numeri IT, ottimizzata per GDPR.
 
 ### PEC e Posta Certificata
 
-- 🔑 [Openapi.com — PEC Check](https://www.openapi.com/it/api/id-trust) — Verifica validità e disponibilità indirizzi PEC italiani.
-- 💰 🔑 [Openapi.com — PEC](https://www.openapi.com/it/api/communication) — Attivazione, modifica e gestione caselle PEC. Invio e ricezione posta certificata via API.
-- 💰 🔑 [Openapi.com — PEC Massiva](https://www.openapi.com/it/api/communication) — Invio massivo di PEC con verifica stato ricevute di consegna e accettazione.
+- 🔑 [Openapi.com — PEC Check](https://console.openapi.com/apis/trust/info) — Verifica validità e disponibilità indirizzi PEC italiani.
+- 💰 🔑 [Openapi.com — PEC](https://console.openapi.com/apis/pec/info) — Attivazione, modifica e gestione caselle PEC. Invio e ricezione posta certificata via API.
+- 💰 🔑 [Openapi.com — PEC Massiva](https://console.openapi.com/apis/pecmassiva/info) — Invio massivo di PEC con verifica stato ricevute di consegna e accettazione.
 - 💰 🔑 [Aruba PEC API](https://www.aruba.it/servizi/posta-elettronica-certificata.aspx) — Invio e ricezione PEC via API. Aruba è il maggior provider PEC italiano.
 - 💰 🔑 [Legalmail (InfoCert) API](https://www.legalmail.it/) — API PEC del secondo provider italiano per volumi. Usato principalmente in ambito legale e PA.
 - 🏛️ [IPA — Indice PA (iPA)](https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente) — Registro ufficiale degli indirizzi PEC di tutte le PA italiane. API REST pubblica.
 
 ### Email Verification
 
-- 💰 🔑 [Openapi.com — Email Check](https://www.openapi.com/it/api/id-trust) — Verifica email con controlli SPF, DMARC, MX, disposabilità. Ottimizzato per domini italiani.
+- 💰 🔑 [Openapi.com — Email Check](https://console.openapi.com/apis/trust/info) — Verifica email con controlli SPF, DMARC, MX, disposabilità. Ottimizzato per domini italiani.
 - 💰 🔑 [ZeroBounce](https://www.zerobounce.net/docs/) — Verifica email internazionale con buona copertura domini .it.
 - 💰 🔑 [Hunter.io](https://hunter.io/api) — Ricerca e verifica email aziendali. Buona copertura imprese italiane.
 
 ### Posta Fisica
 
-- 💰 🔑 [Openapi.com — Postal Service](https://www.openapi.com/it/api/communication) — Invio raccomandate, telegrammi, posta prioritaria via Poste Italiane. API per automatizzare spedizioni fisiche con tracking.
+- 💰 🔑 [Openapi.com — Postal Service](https://console.openapi.com/apis/ufficiopostale/info) — Invio raccomandate, telegrammi, posta prioritaria via Poste Italiane. API per automatizzare spedizioni fisiche con tracking.
 
 <p align="center">♢</p>
 
@@ -247,8 +247,8 @@
 
 - 💰 🔑 [Namirial API](https://www.namirial.com/soluzioni-digital-trust/) — API per firma digitale qualificata, sigillo elettronico, timestamp. Provider accreditato AgID.
 - 💰 🔑 [InfoCert Sign API](https://www.infocert.it/servizi-per-le-aziende/firma-digitale/) — Firma digitale remota e massiva. Tra i principali provider italiani accreditati eIDAS.
-- 💰 🔑 [Openapi.com — eSignature](https://www.openapi.com/it/api/digital-trust) — Firma digitale conforme eIDAS: OTP, firma qualificata remota, sigilli elettronici. Integrazione API REST.
-- 💰 🔑 [Openapi.com — Time Stamping](https://www.openapi.com/it/api/digital-trust) — Marche temporali qualificate su documenti digitali. Conforme normativa eIDAS.
+- 💰 🔑 [Openapi.com — eSignature](https://console.openapi.com/apis/esignature/info) — Firma digitale conforme eIDAS: OTP, firma qualificata remota, sigilli elettronici. Integrazione API REST.
+- 💰 🔑 [Openapi.com — Time Stamping](https://console.openapi.com/apis/marchetemporali/info) — Marche temporali qualificate su documenti digitali. Conforme normativa eIDAS.
 
 <p align="center">♢</p>
 
@@ -256,7 +256,7 @@
 
 - 💰 🔑 [Wikicasa API](https://www.wikicasa.it/) — Portale con focus su nuove costruzioni e mercato primario.
 - 🏛️ [OMI — Quotazioni Immobiliari](https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari) — Valori di mercato ufficiali per zona OMI. Dataset Excel/CSV scaricabili con aggiornamento semestrale.
-- 💰 🔑 [Openapi.com — Real Estate](https://www.openapi.com/it/api/real-estate) — 30+ servizi: valutazione AVM, dati catastali, ipoteche, storico rogiti, abusivismo.
+- 💰 🔑 [Openapi.com — Real Estate](https://console.openapi.com/apis/realestate/info) — 30+ servizi: valutazione AVM, dati catastali, ipoteche, storico rogiti, abusivismo.
 
 <p align="center">♢</p>
 
@@ -332,8 +332,8 @@
 - [spid-sp-test](https://github.com/italia/spid-sp-test) — Tool ufficiale per testare implementazioni SPID Service Provider.
 - [awesome-lint](https://github.com/sindresorhus/awesome-lint) — Linter per validare questa lista prima di fare PR a sindresorhus/awesome.
 - [Developers Italia](https://developers.italia.it/it/api) — Catalogo ufficiale delle API della PA italiana mantenuto da AgID/PDND.
-- 💰 🔑 [Openapi.com — AI RAG](https://www.openapi.com/it/api/ai) — Retrieval-Augmented Generation per documenti italiani. Crea RAG, indicizza documenti, query conversazionali con LLM.
-- 💰 🔑 [Openapi.com — PDF](https://www.openapi.com/it/api/pdf) — Generazione documenti PDF da HTML e URL. Rendering JavaScript lato server.
+- 💰 🔑 [Openapi.com — AI RAG](https://console.openapi.com/apis/ai/info) — Retrieval-Augmented Generation per documenti italiani. Crea RAG, indicizza documenti, query conversazionali con LLM.
+- 💰 🔑 [Openapi.com — PDF](https://console.openapi.com/apis/pdf/info) — Generazione documenti PDF da HTML e URL. Rendering JavaScript lato server.
 
 <p align="center">♢</p>
 
