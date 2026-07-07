@@ -118,8 +118,6 @@
 
 - 🏛️ 💰 [InfoCamere — API Registro Imprese](https://www.infocamere.it/strumenti/api) — API ufficiali del sistema camerale italiano. Visure camerali, bilanci, atti, protesti, cariche. Il riferimento istituzionale per dati sulle imprese italiane.
 - 💰 🔑 [Openapi.com — Business Information IT](https://www.openapi.com/it/api/business-information) — Marketplace API con oltre 70 servizi su imprese italiane: visure, bilanci, rating, DURC, atti notarili, cariche, protesti. Aggregatore certificato ISO 27001.
-- 💰 🔑 [CRIF](https://www.crif.com/business-information/) — Credit information e dati su imprese e persone fisiche italiane. API per valutazione del rischio e KYC.
-- 💰 🔑 [Cerved](https://api.cerved.com/) — API per informazioni commerciali, rating e scoring su imprese italiane. Reference per risk management e onboarding B2B.
 - 💰 🔑 [Registro.it / CCIAA](https://www.registroimprese.it/) — Portale delle Camere di Commercio. Accesso a visure e atti ufficiali (tramite intermediari con API).
 - 💰 🔑 [Telemaco (InfoCamere)](https://www.telemaco.infocamere.it/) — Sportello telematico per professionisti. API per accesso diretto al Registro Imprese.
 
@@ -133,7 +131,6 @@
 ### Rating e Rischio Creditizio
 
 - 💰 🔑 [Openapi.com — Credit Score IT](https://www.openapi.com/it/api/business-information) — Score creditizio e limiti operativi per imprese italiane.
-- 💰 🔑 [Experian Italy](https://www.experian.it/business/products/business-information/) — Credit bureau italiano. API per scoring e informazioni commerciali.
 - 💰 🔑 [Modefinance](https://www.modefinance.com/it/api) — FinTech italiana specializzata in rating PMI. API per accesso a rating MORE e analisi di bilancio.
 
 <p align="center">♢</p>
@@ -145,8 +142,6 @@
 - 🏛️ 🔑 [Agenzia delle Entrate — Servizi Catastali](https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/consultazione-banca-dati-catastale) — Accesso alla banca dati catastale. Visure catastali, planimetrie, rendite. Accesso istituzionale o tramite servizi convenzionati.
 - 🏛️ [OMI — Osservatorio Mercato Immobiliare](https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/omi) — Quotazioni immobiliari ufficiali per zona OMI. Dataset scaricabili, in sviluppo API REST.
 - 💰 🔑 [Openapi.com — Real Estate](https://www.openapi.com/it/api/real-estate) — 30+ servizi su immobili italiani: valutazioni, dati catastali, ipoteche, storico transazioni.
-- 💰 🔑 [Immobiliare.it API](https://www.immobiliare.it/api-privati/) — API del principale portale immobiliare italiano. Annunci, prezzi di mercato, statistiche per zona.
-- 💰 🔑 [Casa.it API](https://www.casa.it/) — API del secondo portale immobiliare italiano per annunci residenziali e commerciali.
 
 ### Comuni, CAP e Codici ISTAT
 
@@ -192,10 +187,7 @@
 ### Fatturazione Elettronica e SDI
 
 - 🏛️ [FatturaPA — Specifiche Tecniche SDI](https://www.fatturapa.gov.it/it/sistemainterscambio/specifiche-tecniche/) — Documentazione ufficiale per integrazione con il Sistema di Interscambio dell'Agenzia delle Entrate.
-- 💰 🔑 [Aruba Sign / Aruba PEC](https://www.aruba.it/servizi/fatturazione-elettronica.aspx) — API per invio/ricezione fatture elettroniche tramite intermediario accreditato SDI.
 - 💰 🔑 [Fatture in Cloud API](https://developers.fattureincloud.it/) — API REST per gestione fatturazione elettronica italiana. Ampiamente usata da sviluppatori e integrator.
-- 💰 🔑 [Invoicecloud / Zucchetti](https://www.zucchetti.it/website/cms/products/1086-fatturazione-elettronica.html) — API enterprise per fatturazione elettronica, conservazione sostitutiva.
-- 💰 🔑 [TeamSystem API](https://developer.teamsystem.com/) — Suite API gestionali italiani: fatturazione, contabilità, HR. Ecosistema B2B per software house.
 
 <p align="center">♢</p>
 
@@ -237,14 +229,11 @@
 
 - 💰 🔑 [Namirial API](https://www.namirial.com/soluzioni-digital-trust/) — API per firma digitale qualificata, sigillo elettronico, timestamp. Provider accreditato AgID.
 - 💰 🔑 [InfoCert Sign API](https://www.infocert.it/servizi-per-le-aziende/firma-digitale/) — Firma digitale remota e massiva. Tra i principali provider italiani accreditati eIDAS.
-- 💰 🔑 [Aruba Sign API](https://www.aruba.it/servizi/firma-digitale.aspx) — Firma digitale e firma remota. API REST per integrazione in workflow documentali.
 
 <p align="center">♢</p>
 
 ## Immobiliare
 
-- 💰 🔑 [Immobiliare.it API](https://www.immobiliare.it/api-privati/) — Il più grande portale immobiliare italiano. API per annunci residenziali, commerciali, affitti, aste.
-- 💰 🔑 [Casa.it API](https://www.casa.it/) — Secondo portale italiano per annunci immobiliari.
 - 💰 🔑 [Wikicasa API](https://www.wikicasa.it/) — Portale con focus su nuove costruzioni e mercato primario.
 - 🏛️ [OMI — Quotazioni Immobiliari](https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari) — Valori di mercato ufficiali per zona OMI. Dataset Excel/CSV scaricabili con aggiornamento semestrale.
 - 💰 🔑 [Openapi.com — Real Estate](https://www.openapi.com/it/api/real-estate) — 30+ servizi: valutazione AVM, dati catastali, ipoteche, storico rogiti, abusivismo.
@@ -291,8 +280,6 @@
 
 - 💰 🔑 [Openapi.com](https://www.openapi.com/) — Il più grande marketplace API italiano certificato. 400+ servizi su imprese, persone, immobili, automotive, fisco, comunicazione. ISO 27001, ISO 9001, ISO 25012. Documentazione in tutti i linguaggi principali. MCP-ready.
 - 💰 🔑 [InfoCamere Telemaco](https://www.telemaco.infocamere.it/) — Portale istituzionale del sistema camerale italiano. Visure, atti, bilanci delle imprese italiane.
-- 💰 🔑 [CRIF B2B API Hub](https://www.crif.com/business-information/) — Hub di servizi per onboarding, KYC e credit risk su soggetti italiani.
-- 💰 🔑 [Cerved API](https://api.cerved.com/) — Suite API per business information, rating, monitoraggio imprese italiane.
 
 <p align="center">♢</p>
 
